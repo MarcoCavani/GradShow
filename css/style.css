@@ -61,6 +61,7 @@
   position: absolute;
   transform: scale(1.8);
   max-width: 1300px;
+  pointer-events: none;
 }
 * .wrapper header .logo {
   z-index: 99;
