@@ -60,9 +60,7 @@ $font-para: 'Mulish', sans-serif;
         // background:$color1;
         overflow: hidden;
         margin: 0 auto;
-        
-        background: linear-gradient(90deg, #01204d 0%, #01204d 20%, white 50%, #01204d 80%, #01204d 100%);
-//        background-image: url(../images/home-bg1.png);
+        background-image: url(../images/home-bg1.png);
         background-repeat: no-repeat;
         background-position: top center;
         background-attachment: fixed;
@@ -81,7 +79,8 @@ $font-para: 'Mulish', sans-serif;
             height: 600px;
             max-height: 1080px;
 
- background: radial-gradient(circle at center, #00968800, #0dcaf0, #01204d 292px);
+
+            background: radial-gradient(circle at center, black, rgba(0,0,0,0), white 615px);
             background-repeat: no-repeat;
 
             .corner{
@@ -124,7 +123,7 @@ $font-para: 'Mulish', sans-serif;
                     font-size: 7rem;
                     
                     margin: 0 auto;
-                    color: white;
+                    color: black;
 
 
 
@@ -136,7 +135,7 @@ $font-para: 'Mulish', sans-serif;
                 span{
                     font-family: $font-title;
                     font-size: 3rem;
-                    color: white;
+                    color: black;
                 }
 
             }
