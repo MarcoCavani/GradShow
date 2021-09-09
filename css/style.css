@@ -26,7 +26,7 @@
   max-width: 1500px;
   overflow: hidden;
   margin: 0 auto;
-  background-image: url(../images/home-bg1.png);
+  background: linear-gradient(90deg, #01204d 0%, #01204d 20%, white 50%, #01204d 80%, #01204d 100%);
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed;
@@ -43,7 +43,7 @@
   align-items: center;
   height: 600px;
   max-height: 1080px;
-  background: radial-gradient(circle at center, black, rgba(0, 0, 0, 0), white 615px);
+  background: radial-gradient(circle at center, #00968800, #0dcaf0, #01204d 292px);
   background-repeat: no-repeat;
 }
 * .wrapper header .corner {
@@ -76,12 +76,12 @@
   font-family: "Broadbay";
   font-size: 7rem;
   margin: 0 auto;
-  color: black;
+  color: white;
 }
 * .wrapper header .logo span {
   font-family: "Broadbay";
   font-size: 3rem;
-  color: black;
+  color: white;
 }
 * .wrapper header #hamburgerMenu {
   background-color: #e91e63;

@@ -47,7 +47,7 @@ class Blob {
       ctx.quadraticCurveTo(p1.x, p1.y, xc, yc);
       // ctx.lineTo(p2.x, p2.y);
 
-      ctx.fillStyle = '#ffffff';
+      ctx.fillStyle = '#01204d ';
       // ctx.fillRect(p1.x-2.5, p1.y-2.5, 5, 5);
 
       p1 = p2;
@@ -61,11 +61,11 @@ class Blob {
     // ctx.closePath();
     ctx.fillStyle = this.color;
     ctx.fill();
-    ctx.strokeStyle = '#ffffff';
+    ctx.strokeStyle = '#01204d ';
     // ctx.stroke();
     
 /*
-    ctx.fillStyle = '#ffffff';
+    ctx.fillStyle = '#01204d ';
     if(this.mousePos) {
       let angle = Math.atan2(this.mousePos.y, this.mousePos.x) + Math.PI;
       ctx.fillRect(center.x + Math.cos(angle) * this.radius, center.y + Math.sin(angle) * this.radius, 5, 5);
@@ -84,7 +84,7 @@ class Blob {
     this._color = value;
   }
   get color() {
-    return this._color || '#ffffff';
+    return this._color || '#01204d ';
   }
   
   set canvas(value) {
